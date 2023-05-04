@@ -12,11 +12,29 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  'wbthomason/packer.nvim',
-  'ellisonleao/gruvbox.nvim',
-  'rebelot/kanagawa.nvim'
+  -- Plugins
+  "iamcco/markdown-preview.nvim",
+
+  -- Colorchemes
+  "ellisonleao/gruvbox.nvim",
+
+  -- Snippets
+  "rafamadriz/friendly-snippets", --a bunch of snippets to use
+  {
+    "L3MON4D3/LuaSnip", dependencies = { "rafamadriz/friendly-snippets" },
+  },
+
+  -- CMP Plugins
+  "hrsh7th/nvim-cmp", -- The completion plugin
+  "hrsh7th/cmp-buffer", -- buffer completions
+  "hrsh7th/cmp-path", -- path completions
+  "hrsh7th/cmp-cmdline", -- cmdline completions
+  "saadparwaiz1/cmp_luasnip", -- snippet completions
+
 }
 
 local opts = {}
 
 require("lazy").setup(plugins, opts)
+
+
