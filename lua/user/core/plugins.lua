@@ -28,6 +28,11 @@ local plugins = {
   "tpope/vim-fugitive",
   "tpope/vim-commentary",
 
+  -- Rust
+  "mfussenegger/nvim-dap",
+  "rcarriga/nvim-dap-ui",
+  "simrat39/rust-tools.nvim",
+
   -- Colorchemes
   "ellisonleao/gruvbox.nvim",
 
@@ -49,6 +54,11 @@ local plugins = {
   "github/copilot.vim",
   "williamboman/mason-lspconfig.nvim",
   "glepnir/lspsaga.nvim",
+  {
+	  'nvim-telescope/telescope.nvim',
+	  tag = '0.1.0',
+	  dependencies = { {'nvim-lua/plenary.nvim'} }
+  },
 
   -- LSP
   "neovim/nvim-lspconfig", -- Enable LSP
