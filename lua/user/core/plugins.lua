@@ -16,6 +16,17 @@ local plugins = {
   "iamcco/markdown-preview.nvim", -- preview for markdown files 
   "nvim-lua/popup.nvim", -- An implementation of Popup API from vim
   "nvim-lua/plenary.nvim", -- Useful lua function used ny lots of plugins
+  "nvim-tree/nvim-tree.lua",
+  "nvim-tree/nvim-web-devicons",
+  "nvim-lualine/lualine.nvim",
+  "nvim-treesitter/nvim-treesitter",
+  "bluz71/vim-nightfly-colors",
+  "vim-test/vim-test",
+  "lewis6991/gitsigns.nvim",
+  "preservim/vimux",
+  "christoomey/vim-tmux-navigator",
+  "tpope/vim-fugitive",
+  "tpope/vim-commentary",
 
   -- Colorchemes
   "ellisonleao/gruvbox.nvim",
@@ -34,6 +45,10 @@ local plugins = {
   "hrsh7th/cmp-cmdline", -- cmdline completions
   "saadparwaiz1/cmp_luasnip", -- snippet completions
   "hrsh7th/cmp-nvim-lua",
+  "saadparwaiz1/cmp_luasnip",
+  "github/copilot.vim",
+  "williamboman/mason-lspconfig.nvim",
+  "glepnir/lspsaga.nvim",
 
   -- LSP
   "neovim/nvim-lspconfig", -- Enable LSP
