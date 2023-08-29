@@ -30,6 +30,12 @@ local options = {
   splitright = true,
   splitbelow = true,
 
+  showcmd = true,
+  laststatus = 2,
+  autowrite = true,
+  cursorline = true,
+  autoread = true,
+
 }
 opt.iskeyword:append("-")
 opt.clipboard:append("unnamedplus") -- clipboard
